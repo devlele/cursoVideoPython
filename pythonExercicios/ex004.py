@@ -1,0 +1,10 @@
+texto = input('Digite qualquer coisa: ')
+
+print(type(texto))
+print('O valor é um numero: ', texto.isnumeric())
+print('O valor é um texto: ', texto.isalpha())
+print('O valor é um texto, numero ou ambos: ', texto.isalnum())
+print('O valor é minusculo: ', texto.islower())
+print('O valor é maiusculo: ', texto.isupper())
+print('O valor é decimal: ', texto.isdecimal())
+print('O valor é um numero: ', texto.isspace())
