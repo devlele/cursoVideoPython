@@ -21,7 +21,7 @@ if pagamento == 2:
 else:
     valorFinal = valor * 0.90
 
-print('Valor a ser pago: {:.2f} \nObrigado pela compra, cuzinho guloso!'.format(valorFinal))
+print('Valor a ser pago: {:.2f} \nObrigado pela compra!'.format(valorFinal))
 
 
 
