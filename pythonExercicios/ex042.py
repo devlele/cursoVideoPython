@@ -11,5 +11,3 @@ if ladoA + ladoB > ladoC and ladoA + ladoC > ladoB and ladoB + ladoC > ladoA:
         print('Pode ser formado um triangulo isósceles (com dois lados iguais)!')
 else:
     print('Não pode ser formado um triangulo')
-
-
