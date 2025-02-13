@@ -1,14 +1,14 @@
 num = int(input('Digite o primeiro termo da progressão: '))
 razao = int(input('Informe a razão: '))
-vezes = 0
-cont = num
-while cont < num + (10 + vezes) * razao:
-    print(cont)
-    cont += razao 
-    
-    if cont == num + (10 + vezes) * razao:
-        vezes = int(input('Deseja mostrar mais quantos termos? '))
-        if vezes != 0:
-            continue
-        else:
-            break
+termo = num
+cont = 1
+total = 0
+vezes = 10
+
+while vezes != 0:
+    total = total + vezes
+    while cont <= total:
+        print(termo)
+        termo += razao
+        cont += 1
+    vezes = int(input('eseja mostrar mais quantos termos?'))

@@ -20,4 +20,4 @@ while continua == 's':
 
 media = soma / cont
 
-print('A média enre os números é: {}\nO maior foi: {}\nO mmenor foi: {}'.format(media, maior, menor))
+print('A média entre os números é: {}\nO maior foi: {}\nO mmenor foi: {}'.format(media, maior, menor))
