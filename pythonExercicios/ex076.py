@@ -2,4 +2,4 @@ listagem = ('Lápis', 1.75, 'Borracha', 2.00, 'Caderno', 15.90, 'Estojo', 25.00,
 
 print('='*40, '\n{:^40}\n'.format('LISTAGEM DE PRODUTOS'), '='*40)
 for i in range(0, 18, 2):
-    print(f'{listagem[i]}', f'{listagem[i+1]}')
+    print(f'{listagem[i]:.<30}', f'R${listagem[i+1]:>7.2f}')
