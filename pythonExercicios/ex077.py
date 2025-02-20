@@ -18,9 +18,9 @@ palavras = ('aprender', 'ensinar', 'estudar', 'avaliar', 'azul', 'ausencia', 'ci
 #            vogais += ' ' + i
 
 #    print(f'Na palavra {palavra.upper()} temos {vogais}')
-#    vogais = ''
+#    vogais = '' 
 
-
+# A parte comentada foi a minha primeira solução, a não comentada é a solução melhorada 
 for i in palavras:
     print(f'\nNa palavra {i.upper()} temos ', end='')
     for letra in i:
